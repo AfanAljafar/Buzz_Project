@@ -9,10 +9,10 @@ const Header = () => {
         <Title children={"Buzz Project!"} />
       </div>
       <div className="Header-comp-right">
-        <Link children={"Our Services"} to="/" />
-        <Link children={"About Us"} to="/post" />
-        <Link children={"Portofolio"} to="/post" />
-        <Link children={"Blog"} to="/post" />
+        <Link children={"Our Services"} to="/Services" />
+        <Link children={"About Us"} to="/AboutUs" />
+        <Link children={"Portofolio"} to="/Portofolio" />
+        <Link children={"Blog"} to="/Blog" />
         <Button
           children={"Start New Project"}
           type={"button"}

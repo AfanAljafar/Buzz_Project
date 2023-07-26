@@ -2,7 +2,7 @@ import { Header } from "..";
 
 const Template = ({ children }) => {
   return (
-    <div className="App">
+    <div>
       <Header />
       {children}
     </div>

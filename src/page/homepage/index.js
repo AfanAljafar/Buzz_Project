@@ -1,8 +1,16 @@
 import React from "react";
-import { Template } from "../../components/group";
+import { Footer, HeroAction, Template } from "../../components/group";
 
 const HomePage = () => {
-  return <Template> Test</Template>;
+  return (
+    <div>
+      <Template>
+        {/* HeroAction */}
+        <HeroAction />
+        <Footer />
+      </Template>
+    </div>
+  );
 };
 
 export default HomePage;
